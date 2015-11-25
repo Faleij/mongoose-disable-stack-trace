@@ -1,0 +1,25 @@
+{
+  "name": "mongoose-disable-stack-trace",
+  "version": "1.0.0",
+  "description": "Disables Stack Trace on validation, cast and other error mongoose errors.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Faleij/mongoose-disable-stack-trace.git"
+  },
+  "keywords": [
+    "mongoose",
+    "stack",
+    "trace",
+    "error"
+  ],
+  "author": "Faleij",
+  "license": "LGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Faleij/mongoose-disable-stack-trace/issues"
+  },
+  "homepage": "https://github.com/Faleij/mongoose-disable-stack-trace#readme"
+}
