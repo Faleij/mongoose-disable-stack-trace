@@ -17,7 +17,7 @@
     "error"
   ],
   "author": "Faleij",
-  "license": "LGPL-3.0",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Faleij/mongoose-disable-stack-trace/issues"
   },

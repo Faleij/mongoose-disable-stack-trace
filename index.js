@@ -6,9 +6,11 @@ const VersionError = module.parent.require('mongoose/lib/error/version');
 const ValidatorError = module.parent.require('mongoose/lib/error/validator');
 const ValidationError = module.parent.require('mongoose/lib/error/validation');
 
-Error.captureStackTrace = (that) => !(
-  that instanceof CastError ||
-  that instanceof VersionError ||
-  that instanceof ValidatorError ||
-  that instanceof ValidationError
-  ) && captureStackTrace.apply(Error, arguments);
+module.exports = () => {
+    Error.captureStackTrace = (that) => !(
+        that instanceof CastError ||
+        that instanceof VersionError ||
+        that instanceof ValidatorError ||
+        that instanceof ValidationError
+    ) && captureStackTrace.apply(Error, arguments);
+};
