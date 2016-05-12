@@ -1,6 +1,6 @@
 {
   "name": "mongoose-disable-stack-trace",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Disables Stack Trace on validation, cast and other error mongoose errors.",
   "main": "index.js",
   "scripts": {
